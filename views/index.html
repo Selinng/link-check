@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>linkChecker</title>
+</head>
+<body>
+  <div>linkChecker</div>
+  <script>
+    const websocket = new WebSocket('ws://localhost:3000/')
+    let count = 0
+    setInterval(() => {
+      count ++
+      websocket.send(count)
+    }, 5000)
+    websocket.onmessage((data) => {
+      console.log(data)
+    })
+  </script>
+</body>
+</html>
