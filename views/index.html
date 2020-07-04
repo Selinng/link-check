@@ -38,10 +38,11 @@
     });
 
     //收到消息时触发
-    socket.on('message', function (data) {
-      var node = document.createElement("li");
-      node.innerHTML = "客户端收到 : " + data;
-      document.querySelector("#receive").appendChild(node);
+    socket.on('msg', function (data) {
+      console.log(data)
+      // var node = document.createElement("li");
+      // node.innerHTML = "客户端收到 : " + data;
+      // document.querySelector("#receive").appendChild(node);
     });
 
     document.querySelector("#send").onclick = function () {
