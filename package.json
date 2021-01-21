@@ -31,7 +31,7 @@
     "robot-directives": "~0.3.0",
     "robots-txt-guard": "~0.1.0",
     "robots-txt-parse": "~0.0.4",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "urlcache": "~0.7.0",
     "urlobj": "0.0.11"
   }
