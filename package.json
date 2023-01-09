@@ -29,7 +29,7 @@
     "nopter": "~0.3.0",
     "parse5": "^3.0.2",
     "robot-directives": "~0.3.0",
-    "robots-txt-guard": "~0.1.0",
+    "robots-txt-guard": "~1.0.2",
     "robots-txt-parse": "~0.0.4",
     "socket.io": "^2.3.0",
     "urlcache": "~0.7.0",
